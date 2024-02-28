@@ -4,6 +4,8 @@ This is the official implementation of 'Boosting Object Detection with Zero-Shot
 
 We will release the camera-ready version and its code soon!
 
+![overview](./overview.png)
+
 ## Citation
 
 If you find this work useful, please cite
