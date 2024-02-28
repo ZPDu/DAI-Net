@@ -1,6 +1,6 @@
 # Boosting-Object-Detection-with-Zero-Shot-Day-Night-Domain-Adaptation
 
-This is the official implementation of 'Boosting Object Detection with Zero-Shot Day-Night Domain Adaptation'. (To appear in **CVPR 2024**) [[arXiv](https://arxiv.org/abs/2208.02894](https://arxiv.org/abs/2312.01220)https://arxiv.org/abs/2312.01220)]
+This is the official implementation of 'Boosting Object Detection with Zero-Shot Day-Night Domain Adaptation'. (To appear in **CVPR 2024**) [[arXiv](https://arxiv.org/abs/2312.01220)]
 
 We will release the camera-ready version and its code soon!
 
