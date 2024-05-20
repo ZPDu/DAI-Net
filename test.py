@@ -19,7 +19,6 @@ from torchvision.utils import make_grid
 import glob
 
 use_cuda = torch.cuda.is_available()
-os.environ['CUDA_LAUNCH_BLOCKING'] = '0'
 
 if use_cuda:
     torch.set_default_tensor_type('torch.cuda.FloatTensor')
