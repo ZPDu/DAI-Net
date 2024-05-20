@@ -52,5 +52,5 @@ If you find this work useful, please cite
 
 ## 🔎 Acknowledgement
 
-We thank [DSFD.pytorch](https://github.com/yxlijun/DSFD.pytorch), [RetinexNet_PyTorch](https://github.com/aasharma90/RetinexNet_PyTorch), [MAET]([MAET](https://github.com/cuiziteng/ICCV_MAET)), [HLA-Face](https://github.com/daooshee/HLA-Face-Code) for their amazing works!
+We thank [DSFD.pytorch](https://github.com/yxlijun/DSFD.pytorch), [RetinexNet_PyTorch](https://github.com/aasharma90/RetinexNet_PyTorch), [MAET](https://github.com/cuiziteng/ICCV_MAET), [HLA-Face](https://github.com/daooshee/HLA-Face-Code) for their amazing works!
 
