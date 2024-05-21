@@ -22,6 +22,22 @@ PyTorch implementation of **Boosting Object Detection with Zero-Shot Day-Night D
 
 3. - [ ] release the training code.
 
+## :rocket: Installation
+
+Begin by cloning the repository and setting up the environment:
+
+```
+git clone https://github.com/ZPDu/DAI-Net.git
+cd DAI-Net
+
+conda create -y -n dainet python=3.7
+conda activate dainet
+
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
+
+pip install -r requirements.txt
+```
+
 ## :notebook: Evaluation​
 
 On Dark Face:
