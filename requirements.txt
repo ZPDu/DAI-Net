@@ -1,0 +1,4 @@
+opencv-python
+Pillow
+torchmetrics
+easydict
