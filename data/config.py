@@ -66,14 +66,10 @@ _C.WEIGHT.SMOOTH = 0.5
 _C.WEIGHT.RC = 0.001
 _C.WEIGHT.MC = 0.1
 
-# dataset config
-_C.HOME = ''
-
-
 # face config
 _C.FACE = EasyDict()
-_C.FACE.TRAIN_FILE = ''
-_C.FACE.VAL_FILE = ''
+_C.FACE.TRAIN_FILE = './dataset/wider_face_train.txt'
+_C.FACE.VAL_FILE = './dataset/wider_face_val.txt'
 
 _C.FACE.OVERLAP_THRESH = 0.35
 
