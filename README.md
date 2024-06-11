@@ -20,7 +20,7 @@ PyTorch implementation of **Boosting Object Detection with Zero-Shot Day-Night D
 1. - [x] release the code regarding the proposed model and losses.
 3. - [x] release the evaluation code, and the pretrained models.
 
-3. - [ ] release the training code.
+3. - [x] release the training code.
 
 ## :rocket: Installation
 
@@ -36,6 +36,39 @@ conda activate dainet
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
 
 pip install -r requirements.txt
+```
+
+## :notebook_with_decorative_cover: Training
+
+#### Data and Weight Preparation
+
+- Download the WIDER Face Training & Validation images at [WIDER FACE](http://shuoyang1213.me/WIDERFACE/).
+- Obtain the annotations of [training set](https://github.com/daooshee/HLA-Face-Code/blob/main/train_code/dataset/wider_face_train.txt) and [validation set](https://github.com/daooshee/HLA-Face-Code/blob/main/train_code/dataset/wider_face_val.txt).
+- Download the [pretrained weight](https://drive.google.com/file/d/1MaRK-VZmjBvkm79E1G77vFccb_9GWrfG/view?usp=drive_link) of Retinex Decomposition Net.
+- Prepare the [pretrained weight](https://drive.google.com/file/d/1whV71K42YYduOPjTTljBL8CB-Qs4Np6U/view?usp=drive_link) of the base network.
+
+Organize the folders as:
+
+```
+.
+├── utils
+├── weights
+│   ├── decomp.pth
+│   ├── vgg16_reducedfc.pth
+├── dataset
+│   ├── wider_face_train.txt
+│   ├── wider_face_val.txt
+│   ├── WiderFace
+│   │   ├── WIDER_train
+│   │   └── WIDER_val
+```
+
+#### Model Training
+
+To train the model, run
+
+```
+python -m torch.distributed.launch --nproc_per_node=$NUM_OF_GPUS$ train.py
 ```
 
 ## :notebook: Evaluation​
