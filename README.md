@@ -8,9 +8,10 @@
     ·
     <a href="https://jiankangdeng.github.io/">Jiankang Deng</a>
   </p>
-#### [[Page](https://zpdu.github.io/DAINet_page/) | [Paper](https://arxiv.org/abs/2312.01220)]
+  
 
-PyTorch implementation of **Boosting Object Detection with Zero-Shot Day-Night Domain Adaptation**. (CVPR 2024) 
+
+PyTorch implementation of **Boosting Object Detection with Zero-Shot Day-Night Domain Adaptation**. (CVPR 2024) [[Page](https://zpdu.github.io/DAINet_page/) | [Paper](https://arxiv.org/abs/2312.01220)]
 
 ![overview](./assets/overview.png)
 
