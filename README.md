@@ -77,10 +77,10 @@ python -m torch.distributed.launch --nproc_per_node=$NUM_OF_GPUS$ train.py
 
 On Dark Face:
 
-- Download the testing samples from [UG2+ Challenge](https://competitions.codalab.org/competitions/32499).
+- Download the testing samples from [UG2+ Challenge](https://codalab.lisn.upsaclay.fr/competitions/8494?secret_key=cae604ef-4bd6-4b3d-88d9-2df85f91ea1c).
 - Download the checkpoints: [DarkFaceZSDA](https://drive.google.com/file/d/1BdkYLGo7PExJEMFEjh28OeLP4U1Zyx30/view?usp=drive_link) (28.0) or [DarkFaceFS](https://drive.google.com/file/d/1ykiyAaZPl-mQDg_lAclDktAJVi-WqQaC/view?usp=drive_link) (52.9, finetuned with full supervision).
 - Set (1) the paths of testing samples & checkpoint, (2) whether to use a multi-scale strategy, and run test.py.
-- Submit the results for benchmarking. ([Detailed instructions](https://competitions.codalab.org/competitions/32499)).
+- Submit the results for benchmarking. ([Detailed instructions](https://codalab.lisn.upsaclay.fr/competitions/8494?secret_key=cae604ef-4bd6-4b3d-88d9-2df85f91ea1c)).
 
 On ExDark:
 
